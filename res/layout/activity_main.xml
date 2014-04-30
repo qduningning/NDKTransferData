@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/txtinfo"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    
+        />
+	<Button 
+	    android:id="@+id/btn1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="传递两个整数给C，返回和"
+	    />
+	<Button 
+	    android:id="@+id/btn2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="传给字符串给C"
+	    />
+	<Button 
+	    android:id="@+id/btn3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="传递给int数组，每个值加10"
+	    />
+</LinearLayout>
